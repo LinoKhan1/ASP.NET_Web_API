@@ -1,0 +1,91 @@
+# .NET
+*.exe
+*.dll
+*.pdb
+*.cache
+*.config
+*.log
+*.vs
+*.vscode
+*.idea
+*.suo
+*.user
+*.userosscache
+*.suo
+*.ncb
+*.swp
+*.sln.docstates
+
+# ASP.NET
+wwwroot/
+node_modules/
+bower_components/
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.csproj.FileListAbsolute.txt
+*.nupkg
+*.snupkg
+*.props
+*.targets
+
+# Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]eleases/
+[Rr]eleasesPublic/
+[Oo]rdered/ 
+
+# Test Results
+[Tt]estResults/
+
+# ASP.NET Core
+appsettings.Development.json
+appsettings.Test.json
+appsettings.Production.json
+secrets.json
+
+# Others
+*.db
+*.sqlite
+*.sql
+*.pfx
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+
+# Local history for JetBrains Rider
+.idea/.idea_history
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.suo
+*.ncb
+*.sdf
+*.cache
+*.dbmdl
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Exclude any files related to the Docker configuration
+docker-compose.override.yml
+docker-compose.debug.yml
+
+# Ignore files for Azure DevOps
+*.tfstate
+*.tfstate.backup
+
+# Exclude any IDE-specific folders
+.vscode/
+.idea/
